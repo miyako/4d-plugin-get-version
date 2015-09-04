@@ -17,7 +17,4 @@ $version_2:=Windows Get version (GetVersionInfoEx)
 $isWOW64:=Windows Is WOW64 
 ```
 
-Passing ```GetVersionInfoEx``` will simply call the corresponding Win32 API; 
-the number will be incorrect for Window 8.1 and 10.
-
-Passing ```GetFileVersionInfo``` will read the version number of Kernel32.dll instead.
+Passing ```GetVersionInfoEx``` will simply call the corresponding Win32 API; the number will be incorrect for Window 8.1 and 10. Passing ```GetFileVersionInfo```, on the other hand, will report the version number of Kernel32.dll instead.
