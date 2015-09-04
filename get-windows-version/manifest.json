@@ -1,0 +1,1 @@
+﻿{"name":"get-windows-version","id":20000,"commands":[{"theme":"Windows","syntax":"Windows Is WOW64:L"},{"theme":"Windows","syntax":"Windows Get version(&L):T"}]}
