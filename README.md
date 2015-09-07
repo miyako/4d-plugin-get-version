@@ -1,6 +1,11 @@
 # 4d-plugin-get-version
 Function to identify the windows version.
 
+Remarks
+---
+
+```PLATFORM PROPERTIES``` has been updated in v15.0-188681, v14.4-188703 to report Windows 8.1 correctly. (ACI0089966)
+
 Note
 ---
 
